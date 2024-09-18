@@ -1,5 +1,17 @@
 import React, { useState, useEffect } from "react";
 import { fetchNui } from "./utils/fetchNui";
+import { debugData } from "./utils/debugData";
+
+
+
+debugData([
+  {
+    action: "show",
+    status: true,
+  },
+]);
+
+
 
 interface Coords {
   x: number | null;

@@ -10,7 +10,7 @@ games {
   "gta5"
 }
 
-ui_page 'web/build/index.html'
+ui_page 'web/dist/index.html'
 
 client_scripts {
   'client/**/*',
@@ -21,5 +21,5 @@ server_scripts {
 
 
 files {
-  'web/build/**/*',
+  'web/dist/**/*',
 }
